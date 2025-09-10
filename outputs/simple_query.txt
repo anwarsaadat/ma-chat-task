@@ -1,0 +1,7 @@
+User: What are the main types of neural networks?
+
+Manager:
+Main findings:
+- Feedforward Neural Networks (MLP): Layers of perceptrons; good for tabular data and simple patterns.
+- Convolutional Neural Networks (CNN): Weight sharing and local receptive fields; strong for images and spatial data.
+- Recurrent Neural Networks (RNN, LSTM, GRU): Sequence models capturing temporal dependencies; LSTM/GRU mitigate vanishing gradients.

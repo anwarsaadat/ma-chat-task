@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  ma-chat:
+    build: .
+    container_name: ma-chat
+    volumes:
+      - .:/app
+    command: python3 -m src.main

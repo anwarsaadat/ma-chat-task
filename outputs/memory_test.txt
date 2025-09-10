@@ -1,0 +1,10 @@
+User: What did we discuss about neural networks earlier?
+
+Manager:
+Here's what I found in memory:
+- What, main, types, neural, networks: Main findings:
+- Feedforward Neural Networks (MLP): Layers of perceptrons; good for tabular data and simple patterns.
+- Convolutional Neural... (conf=1.0)
+- Research, transformer, architectures, analyze, their, computational: Transformer Efficiency (heuristic):
+- Transformers: Full (O(n^2)) | efficiency≈0.6
+Summary: Estimated efficiency from attention pattern heur... (conf=1.0)

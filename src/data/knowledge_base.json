@@ -1,0 +1,9 @@
+[
+  {"title": "Feedforward Neural Networks (MLP)", "summary": "Layers of perceptrons; good for tabular data and simple patterns.", "tags": ["neural networks", "mlp", "feedforward"], "source": "kb:mock"},
+  {"title": "Convolutional Neural Networks (CNN)", "summary": "Weight sharing and local receptive fields; strong for images and spatial data.", "tags": ["neural networks", "cnn", "vision"], "source": "kb:mock"},
+  {"title": "Recurrent Neural Networks (RNN, LSTM, GRU)", "summary": "Sequence models capturing temporal dependencies; LSTM/GRU mitigate vanishing gradients.", "tags": ["neural networks", "rnn", "lstm", "gru"], "source": "kb:mock"},
+  {"title": "Transformers", "summary": "Self-attention based; parallelizable; state of the art in language.", "tags": ["transformer","attention"], "source": "kb:mock"},
+  {"title": "Adam / AdamW", "summary": "Adaptive methods with momentum; strong default for many deep models.", "tags": ["optimizer","adam","adamw"], "source":"kb:mock"},
+  {"title": "Gradient Descent and Variants", "summary":"SGD, Momentum, Nesterov; simple and widely used.","tags":["optimizer","sgd","momentum"], "source":"kb:mock"},
+  {"title":"RL Paper: Model-Based RL for Sample Efficiency (2024)","summary":"Learns dynamics for planning; improves sample efficiency.","tags":["reinforcement learning","model-based","2024"], "source":"kb:mock"}
+]

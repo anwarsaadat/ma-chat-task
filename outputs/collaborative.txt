@@ -1,0 +1,5 @@
+User: Compare two machine-learning approaches and recommend which is better for our use case.
+
+Manager:
+Comparison:
+Layers of perceptrons; good for tabular data and simple patterns. Weight sharing and local receptive fields; strong for images and spatial data. Sequence models capturing temporal dependencies; LSTM/GRU mitigate vanishing gradients. Self-attention based; parallelizable; state of the art in language. Adaptive methods with momentum; strong default for many deep models. SGD, Momentum, Nesterov;...

@@ -1,0 +1,6 @@
+User: Research transformer architectures, analyze their computational efficiency, and summarize key trade-offs.
+
+Manager:
+Transformer Efficiency (heuristic):
+- Transformers: Full (O(n^2)) | efficiency≈0.6
+Summary: Estimated efficiency from attention pattern heuristics.

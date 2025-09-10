@@ -1,0 +1,6 @@
+User: Find recent papers on reinforcement learning, analyze their methodologies, and identify common challenges.
+
+Manager:
+Research: ['RL Paper: Model-Based RL for Sample Efficiency (2024)']
+Analysis: Learns dynamics for planning; improves sample efficiency.
+Common challenges: sample efficiency, distributional shift, scalability
