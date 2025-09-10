@@ -50,8 +50,8 @@ The system consists of three main layers:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/multi-agent-system.git
-cd multi-agent-system
+git clone https://github.com/anwarsaadat/ma-chat-task.git
+cd ma-chat-task
 ```
 
 ### 2. Build with Docker
@@ -63,9 +63,6 @@ make build
 ```bash
 make run
 ```
-
-The service will be accessible at:  
-👉 `http://localhost:8000`
 
 ### 4. Run Tests
 ```bash
@@ -135,16 +132,4 @@ This ensures **reproducibility anywhere in the world**.
   - Errors/fallback events
 - Logs are stored in `outputs/` with scenario-specific identifiers.
 
----
-
-## ✅ Evaluation Criteria Coverage
-
-- **System Architecture** → Modular, agent-based, clear separation of concerns.  
-- **Memory Design** → SQLite schema with structured retrieval and fallbacks.  
-- **Agent Coordination** → Orchestrator directs flow; agents execute specialized tasks.  
-- **Autonomous Reasoning** → Adaptive fallback and memory reuse.  
-- **Code Quality** → Modular, documented, containerized.  
-- **Traceability** → Logging and decision traces.  
-- **Repository Hygiene** → Includes README, Makefile, and logs in `outputs/`.
-
----
+For Groq, you have to include your own API_KEY in .env file with name: GROQ_API_KEY

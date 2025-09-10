@@ -1,5 +1,14 @@
+.PHONY: build run test
+
+build:
+	docker build -t ma-chat .
+
 run:
-	python -m src.main
+	docker run -it --rm \
+		-e PYTHONPATH=/app/src \
+		ma-chat
 
 test:
-	pytest -q --disable-warnings
+	docker run -it --rm \
+		-e PYTHONPATH=/app \
+		ma-chat python -m pytest -q

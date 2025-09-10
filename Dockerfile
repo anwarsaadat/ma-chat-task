@@ -29,6 +29,4 @@ COPY pyproject.toml poetry.lock* setup.cfg* ./
 ENV PYTHONPATH=/app/src \
     PYTHONUNBUFFERED=1
 
-# Default command: run CLI
-# CMD ["python", "-m", "src.main"]
 CMD ["python3", "-m", "src.main", "--mode", "cli"]
