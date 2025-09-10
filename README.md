@@ -1,4 +1,4 @@
-# Multi-Agent Task Orchestration System
+# Multi-Agent Chat System
 
 This repository contains a modular multi-agent orchestration system designed for collaborative task execution, memory persistence, and adaptive reasoning. The system leverages Docker for portability and includes optional integration with LLMs (Groq or others).
 
@@ -8,7 +8,7 @@ This repository contains a modular multi-agent orchestration system designed for
 
 The system consists of three main layers:
 
-1. **Orchestrator (Coordinator)**  
+1. **Coordinator**  
    - Routes tasks to specialized agents.  
    - Handles dependency resolution and workflow sequencing.  
    - Ensures logs and decision traces are captured.
@@ -69,6 +69,8 @@ make run
 make test
 ```
 
+If permission issue arises, then use ```bash sudo``` before the command. Like, ```sudo make build```.
+
 ---
 
 ## 🧠 Memory Design & Retrieval
@@ -102,7 +104,7 @@ If the LLM is unavailable, the system switches to rule-based logic to ensure uni
 ```
 multi-agent-system/
 ├── agents/              # Specialized agents
-├── orchestrator/        # Coordinator logic
+├── core/                # Coordinator logic
 ├── memory/              # Database + retrieval layer
 ├── tests/               # Unit tests
 ├── Dockerfile
