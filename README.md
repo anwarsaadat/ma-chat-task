@@ -48,7 +48,7 @@ The system consists of three main layers:
 
 ## 🛠️ Running the System
 
-## 🛠️ Method 1
+## Method 1
 
 ### 1. Clone the Repository
 ```bash
@@ -75,7 +75,7 @@ make test
 
 ---
 
-## 🛠️ Method 1
+## Method 2
 
 If ```make``` command doesn't work, then use below alternative commands to run and test the application.
 
