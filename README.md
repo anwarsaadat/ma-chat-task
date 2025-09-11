@@ -48,6 +48,8 @@ The system consists of three main layers:
 
 ## 🛠️ Running the System
 
+## 🛠️ Method 1
+
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/anwarsaadat/ma-chat-task.git
@@ -69,7 +71,28 @@ make run
 make test
 ```
 
-If permission issue arises, then use ```bash sudo``` before the command. Like, ```sudo make build```.
+*If permission issue arises, then use ```sudo``` before the command. Like, ```sudo make build```
+
+---
+
+## 🛠️ Method 1
+
+If ```make``` command doesn't work, then use below alternative commands to run and test the application.
+
+### 1. Build with Docker
+```bash
+docker build -t ma-chat .
+```
+
+### 2. Run the Service
+```bash
+sudo docker run -it --rm -e PYTHONPATH=/app/src ma-chat
+```
+
+### 4. Run Tests
+```bash
+sudo docker run -it --rm -e PYTHONPATH=/app ma-chat python -m pytest -q
+```
 
 ---
 
